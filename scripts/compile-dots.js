@@ -28,7 +28,7 @@ var FUNCTION_NAME = /function\s+anonymous\s*\(it[^)]*\)\s*{/;
 var OUT_EMPTY_STRING = /out\s*\+=\s*'\s*';/g;
 var ISTANBUL = /'(istanbul[^']+)';/g;
 var ERROR_KEYWORD = /\$errorKeyword/g;
-var ERROR_KEYWORD_STR = ERROR_KEYWORD.source.replace(/^\\\\/, '');
+var ERROR_KEYWORD_STR = '$errorKeyword';
 var ERROR_KEYWORD_OR = /\$errorKeyword\s+\|\|/g;
 var VARS = [
   '$errs', '$valid', '$lvl', '$data', '$dataLvl',
